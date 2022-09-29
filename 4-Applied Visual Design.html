@@ -24,6 +24,7 @@
         }
         .links {
           margin-right: 20px;
+          
       
         }
         .fullCard {
@@ -104,16 +105,38 @@ In short, the attributes in the div tag do not be implemented to the every eleme
 
      <p>first line with default position</p>
      <p style="position:relative; top:20px;" >Second line with relative position</p>
+     <!--
+      We can see that absolute and fixed position lines are not in the normal flow of the document.
+      After second line (when deactive the position code, it is easir to see) Tester Text comes
+      and there is no space for 3rd and 4th lines. If you deactive 3rd and 4th lines position, you could see that they push the Tester Text below.
+     -->
      <p style="position:absolute; top:30px;" >Third line with absolute position</p>
      <p style="position:fixed; top:10px;" >4th line with fixed position</p>
 
      <em><strong><p>Tester Text</p></strong></em>
-     <em><strong><p>Tester Text</p></strong></em>
-     <em><strong><p>Tester Text</p></strong></em>
-     <em><strong><p>Tester Text</p></strong></em>
-     <em><strong><p>Tester Text</p></strong></em>
-     <em><strong><p>Tester Text</p></strong></em>
-     
+    
+
+
+
+
+     <p style"float:left; width: 20%;" >Float Text1</p>
+     <p style="float:right; width: 20%;" >Float Text2</p>
+     <p style="float:left; width: 20%;" >Float Text3</p>
+     <p style"float:left; width: 10%;" >Float Text4</p>
+     <p style"float:left; width: 10%;" >Float Text5</p>
+     <p style"float:left; width: 10%;" >Float Text6</p>
+     <p style"float:left; width: 10%;" >Float Text7</p>
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
