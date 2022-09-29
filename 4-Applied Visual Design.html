@@ -42,7 +42,8 @@
         .cardText {
         position: relative; /* Just to change the position according to current position, we use relative value.
         By the way, position tag is created to override the normal flow of a page. */
-        top: 10px;
+        top: 10px; /*We called CCS offset of top, rigth, bottom, left.*/
+
         
 
         }
@@ -101,21 +102,18 @@ In short, the attributes in the div tag do not be implemented to the every eleme
       <p>To draw a horizontal line between the lines, we use "hr" tag which doesn't need a closure tag.</p><hr>
       <p class="bc" >To adjust the background-color of a text, we use "background-color: rgba()" tag.</p>
 
-      <div class="fullCard">
-        <div class="cardContent">
-          <div class="cardText">
-            <h4>Google</h4>
-            <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
-          </div>
-          <div class="cardLinks">
-            <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
-            <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
-          </div>
-        </div>
-      </div>
+     <p>first line with default position</p>
+     <p style="position:relative; top:20px;" >Second line with relative position</p>
+     <p style="position:absolute; top:30px;" >Third line with absolute position</p>
+     <p style="position:fixed; top:10px;" >4th line with fixed position</p>
 
-
-
+     <em><strong><p>Tester Text</p></strong></em>
+     <em><strong><p>Tester Text</p></strong></em>
+     <em><strong><p>Tester Text</p></strong></em>
+     <em><strong><p>Tester Text</p></strong></em>
+     <em><strong><p>Tester Text</p></strong></em>
+     <em><strong><p>Tester Text</p></strong></em>
+     
 
 
 </body>
