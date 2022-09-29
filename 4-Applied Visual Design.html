@@ -40,7 +40,11 @@
           
         }
         .cardText {
-    margin-bottom: 30px;
+        position: relative; /* Just to change the position according to current position, we use relative value.
+        By the way, position tag is created to override the normal flow of a page. */
+        top: 10px;
+        
+
         }
         .cardLinks {
           background: rgba(100,50,50,0.1);
@@ -91,7 +95,7 @@ In short, the attributes in the div tag do not be implemented to the every eleme
 
 
       <p><em>For an italic text</em>, we use "em" tag. The full form of it is "Emphasis element"</p>
-      <p><u>To underline words</u>, we use "u" tag.</p>
+      <p style="position: relative; bottom: 20px; right: -20px;" ><u>To underline words</u>, we use "u" tag.</p>
       <p><strong>To make a word bold</strong>, we use "strong" tag.</p>
       <p><s>To draw a line through the middle of a text (strikethrough)</s>, we use "s" tag.</p>
       <p>To draw a horizontal line between the lines, we use "hr" tag which doesn't need a closure tag.</p><hr>
